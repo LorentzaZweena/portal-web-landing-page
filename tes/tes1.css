@@ -367,16 +367,16 @@ header .fa-bars{
 	padding-top: 2rem;
 }
 
-.review .box-container .box .stars i{
+.review .box-container .box .stars p{
 	color: var(--pink);
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .review .box-container .box p{
 	color: #999;
 	font-size: 1.5rem;
 	line-height: 1.5;
-	padding-top: 2rem;
+	padding-top: 1rem;
 }
 
 .review .box-container .box .user img{
@@ -489,7 +489,7 @@ header .fa-bars{
 	border-top: .1rem solid rgba(0, 0, 0, .1);
 }
 
-.footer .credit span{
+.footer .credit span a{
 	color: var(--pink);
 }
 
@@ -642,3 +642,35 @@ header .fa-bars{
   .dropdown:hover .dropdown-content {
 	display: block;
   }
+
+  @media (max-width: 768px) {
+    .dropdown-content {
+        display: none;
+        width: 100%;
+        position: relative;
+        background: #fff;
+        padding: 10px 0;
+    }
+    
+    .dropbtn {
+        width: 100%;
+        text-align: left;
+        padding: 1rem;
+        background: none;
+        border: none;
+        color: inherit;
+        font-size: inherit;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dropdown-content a {
+        padding: 10px 20px;
+        display: block;
+    }
+}
+
+
+  

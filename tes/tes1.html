@@ -18,6 +18,7 @@
 	<!-- icon -->
 	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="icon" type="image/x-icon" href="../img/logo-pesat.png">
 </head>
 <body>
 
@@ -29,18 +30,20 @@
 		<nav class="navbar">
 			<a href="#home">Beranda</a>
 			<div class="dropdown">
-                <button class="dropbtn">Dropdown 
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">SMP Pesat</a>
-                  <a href="#">SMA Pesat</a>
-                  <a href="#">SMK ITXPRO</a>
-                </div>
-        </div> 
-			<a href="#products">Products</a>
-			<a href="#reviews">Review</a>
-			<a href="#contact">Contact</a>
+				<button class="dropbtn" onclick="this.parentElement.classList.toggle('active')">
+					Sekolah 
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="#pesat3">SMP Pesat</a>
+					<a href="#pesat2">SMA Pesat</a>
+					<a href="#about">SMK ITXPRO</a>
+				</div>
+			</div>
+			
+			<a href="http://lynk.id/ppdbsekolahpesat" target="_blank">Pendaftaran</a>
+			<!-- <a href="#reviews">Review</a> -->
+			<a href="http://wa.me/62811115053" target="_blank">Contact</a>
 		</nav>
 		<!-- <div class="icons">
 			<a href="" class="fas fa-heart"></a>
@@ -54,10 +57,7 @@
 			<div class="content">
 				<h3>Portal web</h3>
 				<span>SMP, SMA, SMK informatika pesat</span>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
+				<p>Sekolah yang berdedikasi untuk memberikan pendidikan berkualitas tinggi yang tidak hanya fokus pada aspek akademis, tetapi juga perkembangan karakter dan keterampilan sosial siswa. </p>
 				<a href="#about" class="btn">Pelajari selengkapnya</a>
 			</div>
 
@@ -82,7 +82,7 @@
             
             
 			<div class="content">
-				<h3>IT expert dan professional</h3>
+				<h3 id="pesat">IT expert dan professional</h3>
 				<p>Terwujudnya siswa - siswi sebagai calon tenaga kerja yang berkarakter akhlak mulia, cerdas dan terampil. Menjadi sekolah vokasi informatika terbaik yang menghasilkan lulusan berakhlak mulia, expert dan professional</p>
                 <p>Memantapkan imtaq dan akhlak mulia bagi seluruh warga sekolah, Menyelenggarakan pendidikan yang berorientasi dan berkolerasi dengan kebutuhan dunia usaha, meningkatkan kecakapan siswa melalui kualitas proses belajar mengajar dan kerjasama dengan DU / DI untuk memiliki wawasan kerja dan kewirausahaan</p>
 				<a href="" class="btn">Portal web</a>
@@ -93,9 +93,9 @@
     <section class="about" id="about">
 		<div class="row">
             <div class="content">
-				<h3>School of talent</h3>
+				<h3 id="pesat2">School of talent</h3>
 				<p>Sekolah terbaik dalam mengembangkan potensi peserta didik menjadi insan yang berakhlak mulia, cerdas dan terampil sehingga menjadi salah satu SMA swasta unggulan di kota Bogor</p>
-                <p>Cerdas pembelajar, bertalenta, komunikatif, berkarakter pancasila, dan religius di kemas dalam program intrakulikuler dengan Pendekatan UKRK (Materi Esensial). Layanan talenta mengembangkan kemampuan Non akademik hingga dijadikan portofolio (prasyarat) masuk Perguruan Tinggi.</p>
+                <p>Memantapkan pembiasaan nilai - nilai islam, menyelenggarakan pendidikan yang professional, menyelenggarakan proses pendidikan yang berfokus pada minat dan bakat sesuai dengan potensi peserta didik, meningkatkan kerjasama dengan PTN-PTS lembaga pendidikan formal dan non-formal lainnya</p>
 				<a href="" class="btn">Portal web</a>
 			</div>
 			<div class="image-container">
@@ -125,7 +125,7 @@
             </div>
             
             
-			<div class="content">
+			<div class="content" id="pesat3">
 				<h3>Rising star</h3>
 				<p>Terwujudnya siswa yang religius, berakhlak mulia, cerdas & bertalenta. Menyeluruh dalam memberikan pendidikan peserta didik tidak hanya dalam hal akademik namun juga dalam hal keagamaan serta minat & bakat</p>
                 <p> Ditunjang oleh peralatan ICT sehingga pembelajaran lebih aktraktif dengan berbasis pada pendekea "Contextual Teaching and Learing", didukung oleh tenaga pendidik yang kompeten serta ditunjang fasilitas yang memadai.</p>
@@ -286,15 +286,10 @@
 		<h1 class="heading">Kepala <span>sekolah</span></h1>
 		<div class="box-container">
 		<div class="box">
-			<!-- <div class="stars">
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-			</div> -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="stars">
+				<p>IT Expert dan professional</p>
+			</div>
+			<p>Sekolah kami memiliki 3 program keahlian yaitu Teknik komputer dan jaringan, desain komunikasi visual dan rekayasa perangkat lunak</p>
 			<div class="user">
 				<img src="../img/01.-Adhi-Rachmat-Saputra-S.Kom-Kepala-Sekolah-min-scaled-e1728016651727.jpg">
 				<div class="user-info">
@@ -305,15 +300,10 @@
 			<!-- <span class="fas fa-quote-right"></span> -->
 		</div>
 		<div class="box">
-			<!-- <div class="stars">
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-			</div> -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="stars">
+				<p>School of talents</p>
+			</div>
+			<p>Kami memiliki program kelas talenta, dengan talenta yang dikembangkan, siswa akan memiliki energi tambahan untuk belajar.</p>
 			<div class="user">
 				<img src="../img/Kepala-Sekolah_Mukthi-Baehaqi-674x1024.jpg">
 				<div class="user-info">
@@ -324,15 +314,10 @@
 			<!-- <span class="fas fa-quote-right"></span> -->
 		</div>
 		<div class="box">
-			<!-- <div class="stars">
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-			</div> -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="stars">
+				<p>Rising star</p>
+			</div>
+			<p>Dengan adanya kustom kurikulum ini, muatan kurikulum lebih ramping, fokus pada kompetensi dasar esensial di bidang masing - masing</p>
 			<div class="user">
 				<img src="../img/Kiki Mohamad Ahdiat, S.Pi.png">
 				<div class="user-info">
@@ -345,21 +330,17 @@
 	</div>
 	</section>
 
-	<section class="contact" id="contact">
-		<h1 class="heading"><span>Contact </span>us</h1>
-		<div class="row">
+	<section class="contact" id="contact" style="background-image: url('../img/90767148_qhyb8pnUNV4qBu6gJsEU3BWz2ZzSigkHJkYK9jr74VU.jpg'); background-size: cover; background-position: center; padding: 2rem;">
+		<div class="row" style="background: rgba(255, 255, 255, 0.9); padding: 2rem; border-radius: 10px; max-width: 500px; margin: 0 auto; margin-top: 10em; margin-bottom: 10em;">
 			<form action="">
-				<input type="text" placeholder="Name" class="box">
-				<input type="email" placeholder="Email" class="box">
-				<input type="text" placeholder="Phone number" class="box">
-				<textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
-				<input type="submit" value="Send message" class="btn">
+				<h2 style="color: #003366;">Hubungi <span>Kami</span></h2>
+				<h1 style="font-size: 3em;">Dapatkan Informasi terbaru disini</h1>
+				<input type="text" placeholder="Your message" class="box" style="margin-top: 1em; margin-bottom: 1em;">
+				<a href="http://wa.me/62811115053" class="btn" target="_blank">Whatsapp kami</a>
 			</form>
-			<div class="image">
-				<img src="../img/90767148_qhyb8pnUNV4qBu6gJsEU3BWz2ZzSigkHJkYK9jr74VU.jpg">
-			</div>
 		</div>
 	</section>
+	
 
 	<section class="footer">
 		<div class="box-container">
@@ -367,31 +348,55 @@
 				<h3>Quick links</h3>
 				<a href="">Beranda</a>
 				<a href="">Tentang kami</a>
-				<a href="">Products</a>
-				<a href="">Review</a>
+				<!-- <a href="">Products</a> -->
+				<!-- <a href="">Review</a> -->
 				<a href="">Contact</a>
 			</div>
 			<div class="box">
 				<h3>Extra links</h3>
-				<a href="">Our vision</a>
-				<a href="">Our mission</a>
+				<a href="">Visi kami</a>
+				<a href="">Misi kami</a>
 				<a href="">Prestasi</a>
 			</div>
 			<div class="box">
-				<h3>Lokasi</h3>
-				<a href="">India</a>
-				<a href="">USA</a>
-				<a href="">Japan</a>
-				<a href="">France</a>
+				<h3>Alamat</h3>
+				<a href="">Jalan poras No. 7</a>
+				<a href="">Sindang barang, bogor</a>
+				<a href="">Indonesia</a>
+				<!-- <a href="">France</a> -->
 			</div>
 			<div class="box">
-				<h3>Contact info</h3>
+				<h3>Kontak</h3>
 				<a href="">+12 345-678-901</a>
 				<a href="">xyz@gmail.com</a>
 				<a href="">Jakarta, Indonesia - 44378</a>
 			</div>
 		</div>
-		<div class="credit">Created by <span>Ariva Zweena </span>| All rights reserved</div>
+		<div class="credit">Dibuat oleh <span><a href="https://github.com/LorentzaZweena" target="_blank">Ariva Zweena </a>| XII RPL</div>
 	</section>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const dropdown = document.querySelector('.dropdown');
+			const dropbtn = document.querySelector('.dropbtn');
+			const dropdownContent = document.querySelector('.dropdown-content');
+			
+			dropbtn.addEventListener('click', function(e) {
+				e.preventDefault();
+				if (dropdownContent.style.display === 'block') {
+					dropdownContent.style.display = 'none';
+				} else {
+					dropdownContent.style.display = 'block';
+				}
+			});
+		
+			document.addEventListener('click', function(e) {
+				if (!dropdown.contains(e.target)) {
+					dropdownContent.style.display = 'none';
+				}
+			});
+		});
+		</script>
+		
+		
 </body>
 </html>
