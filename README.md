@@ -81,7 +81,3 @@ This project is open-source and available under the MIT License.
 
 - Thank you to all contributors who help improve this project!
 - Special thanks to the open-source community for providing helpful resources and tutorials.
-
----
-
-This `README.md` provides a comprehensive guide to the project, explaining its features, installation steps, and basic instructions for usage. You can customize the instructions further based on the specifics of your project.
