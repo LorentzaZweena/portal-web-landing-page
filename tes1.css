@@ -608,9 +608,6 @@ header .fa-bars{
 	margin: 0;
   }
   
-  .dropdown:hover .dropbtn {
-	/* background-color: red; */
-  }
   
   .dropdown-content {
 	display: none;
